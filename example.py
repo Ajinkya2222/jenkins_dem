@@ -1,7 +1,7 @@
 def fib(n):
-     a, b = 0, 1
+     a, b ,c= 0, 1,2
      while a < n:
          print(a, end=' ')
          a, b = b, a+b
-     print()
+     print(c)
 fib(1000)
